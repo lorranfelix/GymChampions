@@ -19,7 +19,7 @@ mongoose.connect(process.env.MONGO_URI)
 
 // Rota GET
 app.get('/', (req, res) => {
-  res.json({ mensagem: "API Unreal está online" });
+  res.json({ mensagem: "API Unreal está online 1.1" });
 });
 
 
