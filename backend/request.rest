@@ -1,0 +1,11 @@
+POST https://lorran.azayo.com.br:3000/api/users
+Content-Type: application/json
+
+{
+    "name": "Alaude",
+    "age": "110",
+    "email": "alaude@email.com",
+    "password": "alaude123",
+    "profilePicture": "",
+    "phoneNumbers": "66966966"
+}
